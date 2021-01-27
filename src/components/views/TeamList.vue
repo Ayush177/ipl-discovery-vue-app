@@ -1,19 +1,21 @@
 <template>
-    <div class="mx-5 my-5">
-        <b-card-group columns>
-            <div v-for="team in teams" :key="team.id">
-            <b-card
-            :img-src="team.img_url"
-            img-alt="Image"
-            img-top
-            class="shadow-lg p-3 mb-5 bg-white rounded"
-            >
-            <b-card-text>
-                <h1>{{ team.team1 }}</h1>
-            </b-card-text>
-            </b-card>
-            </div>
-        </b-card-group>
+    <div class="page">
+        <div class="mx-3 my-5">
+            <b-card-group columns>
+                <div v-for="team in teams" :key="team.id">
+                <b-card
+                :img-src="team.img_url"
+                img-alt="Image"
+                img-top
+                class="shadow-lg p-3 mb-5 bg-white rounded"
+                >
+                <b-card-text>
+                    <h1>{{ team.team1 }}</h1>
+                </b-card-text>
+                </b-card>
+                </div>
+            </b-card-group>
+        </div>
     </div>
 </template>
 

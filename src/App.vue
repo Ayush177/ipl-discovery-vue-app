@@ -10,3 +10,8 @@ export default {
   name: 'App',
 }
 </script>
+<style>
+.page{
+  margin-top: 100px;
+}
+</style>

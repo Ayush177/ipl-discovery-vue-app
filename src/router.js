@@ -22,11 +22,6 @@ const router = new Router({
             component: MatchList,
         },
         {
-            path: '/match-list/filter',
-            name: 'match-filtered-list',
-            component: MatchList,
-        },
-        {
             path: '/team-list',
             name: 'team-list',
             component: TeamList,
@@ -37,28 +32,13 @@ const router = new Router({
             component: MostRunByAvgStrikeRateList,
         },
         {
-            path: '/most-run-by-avg-strikerate/filter',
-            name: 'most-run-by-avg-strikerate-filtered',
-            component: MostRunByAvgStrikeRateList,
-        },
-        {
             path: '/teamwise-home-and-away',
             name: 'teamwise-home-and-away',
             component: TeamwiseHomeAndAway,
         },
         {
-            path: '/teamwise-home-and-away/filter',
-            name: 'teamwise-home-and-away-filtered',
-            component: TeamwiseHomeAndAway,
-        },
-        {
             path: '/delivery-list',
-            name: 'delivery-filtered',
-            component: Deliveries,
-        },
-        {
-            path: '/delivery-list/filter',
-            name: 'delivery-filtered',
+            name: 'delivery',
             component: Deliveries,
         },
         {

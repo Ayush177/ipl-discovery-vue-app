@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-navbar toggleable="lg" type="dark" variant="info" sticky fixed>
+  <b-navbar toggleable="lg" type="dark" variant="info" sticky class="position-fixed w-100">
     <b-navbar-brand href="https://www.iplt20.com/" class="navbar-brand">
       <img :src="logo_url" alt="IPL logo">
     </b-navbar-brand>
