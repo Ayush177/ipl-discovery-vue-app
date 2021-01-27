@@ -1,0 +1,1 @@
+let whiteListedModules = ['vue', 'bootstrap-vue']
