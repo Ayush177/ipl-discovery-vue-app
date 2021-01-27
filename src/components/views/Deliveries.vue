@@ -74,7 +74,7 @@
         </b-tbody>
     </b-table-simple>
     </b-card>
-    <div class="text-center" v-if="!filtered_list">
+    <div class="text-center mb-4" v-if="!filtered_list">
         <span>
             <b-button variant="light" class="rounded-circle px-0 py-1" size="sm" :disabled="rightDisabled" @click="get_entries(-1)">
                 <b-icon icon="chevron-left" aria-hidden="true" scale=2 class="mr-4"></b-icon>
